@@ -1,0 +1,126 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CATEGORIES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>World's Best Anime Site</h1>
+    <p>Watching anime is now become easy.Each and every type of anime will be available here.
+       <br> Watch and download anime now in only one click.
+    </p>
+    <a href="" class="hero-btn">Visit to watch Anime</a>
+</div>
+</section>
+
+<!------------categories--------->
+
+<section class="categories">
+    <h1>Categories of anime</h1>
+    <p>Action comedy overpower reincarnation sexual romantic</p>
+    <div class="row">
+        <div class="categories-col">
+            <h1>Action</h1>
+            <p>Action is the first priority of the animator </p>
+        </div>
+        <div class="categories-col">
+            <h2>Sports</h2>
+            <p>Anime on the Sports.Prodigy characters are there which are overwhelming which lose due from a new player in the game </p>
+        </div>
+        <div class="categories-col">
+            <h3>Rebirth</h3>
+            <p>Character first died and rebirth with some supernatural powers. </p>
+        </div>
+        <div class="categories-col">
+            <h4>Eng Subtitle</h4>
+            <p>Animes with original voice and english subtitle </p>
+        </div>
+        <div class="categories-col">
+            <h5>Eng Dubbed</h5>
+            <p>Anime dubbed in english with the best suitable voice for the Character </p>
+        </div>
+        <div class="categories-col">
+            <h6>Eternal</h6>
+            <p>Anime which are favourites of all time </p>
+        </div>
+    </div>
+
+</section>
+
+<!---------------Famous Animes--------------->
+<section class="eternals">
+    <h1>Most Popular Animes</h1>
+    <p>Animes which are most popular and liked over the world </p>
+    <div class="row">
+        <div class="eternal-col">
+            <img src="images/banner.png">
+            <div>
+                <p>Kuroko's Basketball (Japanese: 黒子のバスケ, Hepburn: Kuroko no Basuke) is a Japanese sports manga series written and illustrated by Tadatoshi Fujimaki. 
+                    It was serialized in Weekly Shōnen Jump from December 2008 to September 2014, with the individual chapters collected into 30 tankōbon volumes by Shueisha. 
+                    It tells the story of a high school basketball team trying to make it to the national tournament.</p>
+                <h3>Kuroko's Basketball</h3>
+            </div>
+        </div>
+        <div class="eternal-col">
+            <img src="images/ken.jpg">
+            <div>
+                <p>Tokyo Ghoul (Japanese: 東京喰種トーキョーグール, Hepburn: Tōkyō Gūru) is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. 
+                    It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and was collected in fourteen tankōbon volumes. </p>
+                <h3>Tokyo Ghoul</h3>
+            </div>
+        </div>
+        <div class="eternal-col">
+            <img src="images/one piece.jpg">
+            <div>
+                <p>One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. 
+                    It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 103 tankōbon volumes as of August 2022. </p>
+                <h3>One Piece</h3>
+            </div>
+        </div>
+        <div class="eternal-col">
+            <img src="images/naruto.jpg">
+            <div>
+                <p>Naruto (Japanese: NARUTOナルト) is a Japanese manga series written and illustrated by Masashi Kishimoto. 
+                    It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.</p>
+                <h3>Naruto</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>    
+    
+</body>
+</html>
